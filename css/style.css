@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     padding: 20px;
+    background-image: url("1314534.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.7); /* 使用 rgba 來設定背景顏色和透明度 */
 }
 
 button {
@@ -30,7 +33,16 @@ input[type="text"], input[type="tel"] {
     margin: 10px 0;
     padding: 10px;
     font-size: 18px;
-    width: 80%;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    width: 40%;
     box-sizing: border-box;
 }
 
